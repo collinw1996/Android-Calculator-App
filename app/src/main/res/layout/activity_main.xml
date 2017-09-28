@@ -13,7 +13,6 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:textSize="60sp" />
-    <!--first row-->
     <LinearLayout
         android:id="@+id/first_row"
         android:layout_width="match_parent"
@@ -68,7 +67,6 @@
             android:layout_marginRight="1dp"
             />
     </LinearLayout>
-    <!--second row-->
     <LinearLayout
         android:id="@+id/second_row"
         android:layout_width="match_parent"
@@ -120,7 +118,6 @@
             android:layout_marginEnd="1dp"
             android:layout_marginRight="1dp" />
     </LinearLayout>
-    <!--third row-->
     <LinearLayout
         android:id="@+id/third_row"
         android:layout_width="match_parent"
@@ -171,7 +168,6 @@
             android:padding="8dp"
             android:layout_marginRight="1dp"/>
     </LinearLayout>
-    <!--fourth row-->
     <LinearLayout
         android:id="@+id/four_row"
         android:layout_width="match_parent"
@@ -223,7 +219,6 @@
             android:layout_marginEnd="1dp"
             android:layout_marginRight="1dp" />
     </LinearLayout>
-    <!--fifth row-->
     <LinearLayout
         android:id="@+id/five_row"
         android:layout_width="match_parent"

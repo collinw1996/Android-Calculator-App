@@ -101,20 +101,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 display.setText(str);
                 break;
             case R.id.decimal:
-                // TODO: 9/27/2017
                 count++;
                 if(count == 1){
                     flag = true;
                     str = str.concat(decimal.getText().toString());
                     display.setText(str);
-                }/*
-                else if(count == 2){
-                    str = "";
-                    display.setText(str);
-                    num1 = 0;
-                    num2 = 0;
-                    flag = false;
-                }*/
+                }
                 break;
             case R.id.addBtn:
                 if(flag){
